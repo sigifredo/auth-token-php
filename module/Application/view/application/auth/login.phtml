@@ -5,7 +5,7 @@ if ($this->form)
     $form = $this->form;
     $form->prepare();
 
-    $form->setAttribute('action', $this->basePath('/auth/auth/login/'.$this->sn));
+    $form->setAttribute('action', $this->basePath('/page/auth/login'));
     $form->setAttribute('method', 'post');
 
     echo $this->form()->openTag($form);

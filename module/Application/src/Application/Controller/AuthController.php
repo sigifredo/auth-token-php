@@ -9,6 +9,10 @@ class AuthController extends AbstractActionController
 {
     public function loginAction()
     {
-        return array ('form' => new \Application\Form\Login());
+        if ($this->getRequest()->isPost())
+        {
+        }
+        else
+            return array ('form' => new \Application\Form\Login());
     }
 }

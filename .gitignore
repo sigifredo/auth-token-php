@@ -1,4 +1,5 @@
 nbproject
+*.swp
 ._*
 .~lock.*
 .buildpath

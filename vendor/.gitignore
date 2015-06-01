@@ -1,5 +1,6 @@
 !.gitignore
 .composer
 composer
+firebase
 zendframework
 autoload.php

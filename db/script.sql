@@ -1,0 +1,9 @@
+CREATE DATABASE authdb;
+
+USE authdb;
+
+CREATE TABLE user (
+id INTEGER PRIMARY KEY,
+username VARCHAR(15) NOT NULL UNIQUE,
+password VARCHAR(40) NOT NULL
+);
